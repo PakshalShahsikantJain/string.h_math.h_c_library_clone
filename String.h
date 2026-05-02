@@ -1,5 +1,8 @@
-#include<stdlib.h>
+#ifndef HELPER_H
+#define HELPER_H
+
 #include<stdio.h>
+#include<stdlib.h>
 
 typedef int BOOL;
 
@@ -15,3 +18,5 @@ BOOL MyStrnCmp(char *str1,char *str2,int iNo);
 void MyStrRev(char *str,char *revString);
 int MyStrchr(char *str,char ch);
 int MyStrStr(char *str1,char *str2);
+
+#endif

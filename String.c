@@ -132,7 +132,7 @@ void MyStrRev(char *str,char *revString)
     while(*temp != *str)
     {
         *revString = *temp;
-        printf("%c\n",*revString);
+        // printf("%c\n",*revString);
 
         revString++;
         temp--;
