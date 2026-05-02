@@ -471,7 +471,7 @@ int main()
             {
                 mygcd = (fptr2)dlsym(handle2,"MyGCD");
 
-                if(!mymin)
+                if(!mygcd)
                 {
                     fprintf(stderr,"Unable to link shared object symbol: %s",dlerror());
 
