@@ -41,35 +41,6 @@ The primary goal is **not** to replace the standard library, but to understand:
 
 ---
 
-## Project Structure
-
-```
-string.h_math.h_c_library_clone/
-│
-├── include/
-│   ├── my_string.h          # Header for custom string.h
-│   └── my_math.h            # Header for custom math.h
-│
-├── src/
-│   ├── my_string.c          # Implementation of string.h functions
-│   └── my_math.c            # Implementation of math.h functions
-│
-├── examples/
-│   ├── test_string.c        # Demo program using string functions
-│   └── test_math.c          # Demo program using math functions
-│
-├── static/
-│   └── libmylib.a           # Compiled static library (generated)
-│
-├── dynamic/
-│   └── libmylib.so          # Compiled shared library (generated)
-│
-├── Makefile                 # Build automation
-└── README.md
-```
-
----
-
 ## Implemented Functions
 
 ### string.h Functions
